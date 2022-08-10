@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Torizon-Debian",
+        "compilers": {
+          "CC": "/usr/bin/${env:CC}",
+          "CXX": "/usr/bin/${env:CXX}"
+        },
+        "toolchainFile": "torizon-toolchain.cmake"
+    }
+]

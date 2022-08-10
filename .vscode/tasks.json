@@ -1,0 +1,9 @@
+{
+    "version": "2.0.0",
+    "tasks": [],
+    "options": {
+        "env": {
+            "TORIZON_PROP_ARG": "ARG SSHUSERNAME=#%application.username%#\n"
+        }
+    }
+}

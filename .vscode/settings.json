@@ -1,0 +1,6 @@
+{
+    "torizon.configuration": "debug",
+    "cmake.configureOnOpen": false,
+    "torizon.appfolder": "appconfig_0",
+    "cmake.installPrefix": "/workspaces/cmakeproj/appconfig_0/work/cmakeproj"
+}
