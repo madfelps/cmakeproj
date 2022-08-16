@@ -42,6 +42,8 @@ jobs:
       - name: Build SDK Container
         run: |
           ./moses-linux/tdskt -p application ${{ env.APPID }} runsdk release
+      - name: Setup tmate session 
+        uses: mxschmitt/action-tmate@v3
       - name: Compile And Install The Source Code
         run: |
           docker run --rm -t -v ${PWD}:/workspaces/${{ github.event.repository.name }} --env-file ./appconfig_0/containerEnv \
