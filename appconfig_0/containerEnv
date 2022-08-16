@@ -15,6 +15,7 @@ DESKTOP_SESSION=ubuntu
 SSH_AGENT_PID=3041
 GTK_MODULES=gail:atk-bridge
 PWD=/home/felipe/RD/TIE-656/cpp/cmakeproj/cmakeproj
+CXX=aarch64-linux-gnu-g++
 XDG_SESSION_DESKTOP=ubuntu
 LOGNAME=felipe
 XDG_SESSION_TYPE=x11
